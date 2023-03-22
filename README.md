@@ -1,5 +1,5 @@
 ## **Data Mining - Data Preprocessing and Data Exploration**
-Simple preprocessing implementation.
+Simple preprocessing implementation without library.
 ### **Features**
 There are some basic data preprocessing tasks:
 * List missing values
@@ -20,7 +20,7 @@ This task provides:
 ### **The missing attribute**
 In order to run, we need to use:
 ```bash
-list-mising.py <input-file>
+list-missing.py <input-file>
 ```
 Arguments:
 * `<input-file>`: the input file path
@@ -29,7 +29,7 @@ Arguments:
 
 In order to run, we need to use:
 ```bash
-count-mising.py <input-file>
+count-missing.py <input-file>
 ```
 Arguments:
 * `<input-file>`: the input file path
