@@ -21,6 +21,7 @@ inputPath = args["path"]
 try:
     data = readCSV(inputPath)
     missingSamples = data.missingSample()
+    print(f"There are {data.length()} samples in the dataset")
     print(f"The dataset has {missingSamples} line(s) with missing value")
 except (FileNotFoundError) as e:
     print(e)

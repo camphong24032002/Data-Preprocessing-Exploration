@@ -76,7 +76,7 @@ drop-threshold.py <input-file> --axis=<axis> --threshold=0.5 --out=<output-file>
 ```
 Arguments:
 * `<input-file>`: the input file path
-* `<axis`: the axis we want to process (`sample`, `attribute`)
+* `<axis>`: the axis we want to process (`sample`, `attribute`)
 * `<output-file>`: the output file path
 
 
